@@ -116,13 +116,13 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AuthoringPackagingScenarios\AuthoringDemo.csproj">
+    <ProjectReference Include="..\AuthoringDemo\AuthoringDemo.csproj">
       <Project>{516410ab-2eaa-463b-84ec-25694633a555}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="AuthoringDemo">
-      <HintPath>..\AuthoringPackagingScenarios\bin\Debug\net5.0-windows10.0.19041.0\AuthoringDemo.winmd</HintPath>
+      <HintPath>..\AuthoringDemo\bin\Debug\net5.0-windows10.0.19041.0\AuthoringDemo.winmd</HintPath>
       <IsWinMDFile>true</IsWinMDFile>
     </Reference>
   </ItemGroup>
