@@ -124,6 +124,7 @@
     <Reference Include="AuthoringDemo">
       <HintPath>..\AuthoringDemo\bin\Debug\net5.0-windows10.0.19041.0\AuthoringDemo.winmd</HintPath>
       <IsWinMDFile>true</IsWinMDFile>
+      <Implementation>WinRT.Host.dll</Implementation>
     </Reference>
   </ItemGroup>
   <ItemGroup>
