@@ -121,14 +121,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="AuthoringDemo">
-      <HintPath>..\AuthoringDemo\bin\Debug\net5.0-windows10.0.19041.0\AuthoringDemo.winmd</HintPath>
-      <IsWinMDFile>true</IsWinMDFile>
-      <Implementation>WinRT.Host.dll</Implementation>
-    </Reference>
+    <Manifest Include="CppConsoleApp.exe.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <Manifest Include="CppConsoleApp.exe.manifest" />
+    <Reference Include="AuthoringDemo">
+      <HintPath>..\AuthoringDemo\bin\x64\Debug\net5.0-windows10.0.19041.0\AuthoringDemo.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
